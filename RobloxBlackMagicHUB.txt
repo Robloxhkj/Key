@@ -1,0 +1,3041 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Frame_3 = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local Logo = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local QQ = Instance.new("ImageLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local _1 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextButton_2 = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextButton_3 = Instance.new("TextButton")
+local Frame_6 = Instance.new("Frame")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local Frame_7 = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local Frame_8 = Instance.new("Frame")
+local UIGradient_7 = Instance.new("UIGradient")
+local Frame_9 = Instance.new("Frame")
+local UIGradient_8 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local Frame_10 = Instance.new("Frame")
+local UIGradient_9 = Instance.new("UIGradient")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local ScrollingFrame_3 = Instance.new("ScrollingFrame")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local _1_2 = Instance.new("ImageButton")
+local _1_3 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local _2_2 = Instance.new("ImageButton")
+local _2_3 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local ScrollingFrame_4 = Instance.new("ScrollingFrame")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local ImageButton_2 = Instance.new("ImageButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local ImageButton_3 = Instance.new("ImageButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local ImageButton_4 = Instance.new("ImageButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local ImageButton_5 = Instance.new("ImageButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local ImageButton_6 = Instance.new("ImageButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local ScrollingFrame_5 = Instance.new("ScrollingFrame")
+local TextLabel_12 = Instance.new("TextLabel")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local _2_4 = Instance.new("ImageButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local ImageButton_7 = Instance.new("ImageButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local ImageButton_8 = Instance.new("ImageButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local ImageButton_9 = Instance.new("ImageButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 85, 127)
+Frame.BackgroundTransparency = 0.300
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.255320996, 0, 0.290771186, 0)
+Frame.Size = UDim2.new(0, 666, 0, 369)
+
+UICorner.CornerRadius = UDim.new(0, 16)
+UICorner.Parent = Frame
+
+Frame_2.Name = "横分割线"
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 0.300
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.16260162, 0)
+Frame_2.Size = UDim2.new(1, 0, 0, 1)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(170, 67, 67)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(170, 67, 67)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame_2
+
+Frame_3.Name = "竖分割线"
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BackgroundTransparency = 0.300
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.148648649, 0, 0.165311649, 0)
+Frame_3.Size = UDim2.new(0, 1, 0.83739835, 0)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(205, 205, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(205, 205, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = Frame_3
+
+Logo.Name = "Logo"
+Logo.Parent = Frame
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(0.0350059979, 0, 0.0344200656, 0)
+Logo.Size = UDim2.new(0, 36, 0, 36)
+Logo.Image = "rbxassetid://138288475364166"
+
+UICorner_2.Parent = Logo
+
+TextLabel.Name = "标题"
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.114114113, 0, 0.040650405, 0)
+TextLabel.Size = UDim2.new(0, 279, 0, 30)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Roblox黑科技脚本中心 - 恁又要讨人厌了"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 19.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+_2.Name = "联系方式2"
+_2.Parent = Frame
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.843843818, 0, 0.926829278, 0)
+_2.Size = UDim2.new(0, 84, 0, 26)
+_2.Font = Enum.Font.Unknown
+_2.Text = "390751814"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 16.000
+
+QQ.Name = "QQ"
+QQ.Parent = Frame
+QQ.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+QQ.BackgroundTransparency = 1.000
+QQ.BorderColor3 = Color3.fromRGB(0, 0, 0)
+QQ.BorderSizePixel = 0
+QQ.Position = UDim2.new(0.815315306, 0, 0.937669396, 0)
+QQ.Size = UDim2.new(0, 19, 0, 19)
+QQ.Image = "rbxassetid://140442613595732"
+
+ImageLabel.Name = "微信"
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.660660684, 0, 0.937669396, 0)
+ImageLabel.Size = UDim2.new(0, 19, 0, 19)
+ImageLabel.Image = "rbxassetid://127305073924596"
+
+UICorner_3.CornerRadius = UDim.new(0, 16)
+UICorner_3.Parent = ImageLabel
+
+ImageButton.Name = "关闭窗口"
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.941441417, 0, 0.032520324, 0)
+ImageButton.Size = UDim2.new(0, 23, 0, 23)
+ImageButton.Image = "rbxassetid://136968209449975"
+
+_1.Name = "联系方式1"
+_1.Parent = Frame
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.689189196, 0, 0.924119234, 0)
+_1.Size = UDim2.new(0, 84, 0, 26)
+_1.Font = Enum.Font.Unknown
+_1.Text = "oxYLENxo"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 16.000
+
+TextButton.Name = "免费脚本"
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(-0.00150150154, 0, 0.273712724, 0)
+TextButton.Size = UDim2.new(0, 99, 0, 39)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "😀 免费脚本"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+Frame_4.Name = "横分割线"
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 0.300
+Frame_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.27100271, 0)
+Frame_4.Size = UDim2.new(0.148648649, 0, 0, 1)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(33, 85, 33)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 85, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(33, 85, 33)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = Frame_4
+
+TextButton_2.Name = "买断制脚本"
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(-0.00150150154, 0, 0.3794038, 0)
+TextButton_2.Size = UDim2.new(0, 99, 0, 39)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = " 💴 买断制脚本"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+Frame_5.Name = "横分割线"
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 0.300
+Frame_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 0.3794038, 0)
+Frame_5.Size = UDim2.new(0.148648649, 0, 0, 1)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(170, 118, 67)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 85, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(170, 118, 67)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = Frame_5
+
+TextButton_3.Name = "包月制脚本"
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(-0.00150150154, 0, 0.485094845, 0)
+TextButton_3.Size = UDim2.new(0, 99, 0, 39)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = " 👍 包月制脚本"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+Frame_6.Name = "横分割线"
+Frame_6.Parent = Frame
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 0.300
+Frame_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 0.485094845, 0)
+Frame_6.Size = UDim2.new(0.148648649, 0, 0, 1)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(50, 50, 127)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 0, 127)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(50, 50, 127)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Parent = Frame_6
+
+TextButton_4.Name = "公告及活动"
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0, 0, 0.16260162, 0)
+TextButton_4.Size = UDim2.new(0, 99, 0, 39)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "🎊 公告及活动"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Name = "代刷代练"
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(-0.00150150154, 0, 0.59620595, 0)
+TextButton_5.Size = UDim2.new(0, 99, 0, 39)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = " 💪 代刷代练"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+Frame_7.Name = "横分割线"
+Frame_7.Parent = Frame
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BackgroundTransparency = 0.300
+Frame_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.593495905, 0)
+Frame_7.Size = UDim2.new(0.148648649, 0, 0, 1)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(203, 100, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(203, 100, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Parent = Frame_7
+
+Frame_8.Name = "横分割线"
+Frame_8.Parent = Frame
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 0.300
+Frame_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0, 0, 0.701897025, 0)
+Frame_8.Size = UDim2.new(0.148648649, 0, 0, 1)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(185, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(185, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Parent = Frame_8
+
+Frame_9.Name = "横分割线"
+Frame_9.Parent = Frame
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 0.300
+Frame_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0.00150150154, 0, 0.8075881, 0)
+Frame_9.Size = UDim2.new(0.148648649, 0, 0, 1)
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(170, 120, 147)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(170, 85, 127)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(170, 120, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_8.Parent = Frame_9
+
+TextButton_6.Name = "广告位"
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0, 0, 0.701897025, 0)
+TextButton_6.Size = UDim2.new(0, 99, 0, 39)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = " 🔈 广告位"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+TextLabel_2.Name = "欢迎语"
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.178678676, 0, 0.924119234, 0)
+TextLabel_2.Size = UDim2.new(0, 317, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+ImageLabel_2.Name = "玩家头像"
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0270270277, 0, 0.810298085, 0)
+ImageLabel_2.Size = UDim2.new(0, 63, 0, 63)
+ImageLabel_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_4.CornerRadius = UDim.new(0, 16)
+UICorner_4.Parent = ImageLabel_2
+
+ScrollingFrame.Name = "公告及活动显示区"
+ScrollingFrame.Parent = Frame
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.169669673, 0, 0.200542003, 0)
+ScrollingFrame.Size = UDim2.new(0, 537, 0, 266)
+ScrollingFrame.Visible = false
+ScrollingFrame.ScrollBarThickness = 6
+
+TextLabel_3.Name = "公告及活动"
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0229681972, 0, 0.000136005852, 0)
+TextLabel_3.Size = UDim2.new(1, 0, 0, 0)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "<font color='rgb(255,255,0)'>【公告】更新时间2026.1.4</font><br/><br/>1.正在紧锣密鼓的搭建脚本中心框架，添加脚本以及增设服务<br/><br/>2.日后新增脚本，临时变动，闲事扯皮等等都更新在这里<br/><br/><font color='rgb(255,255,0)'>【关于注入器和VPN】</font><br/><br/>1.目前注入器PC，安卓，ios三端皆可使用，需要其他注入器或者视频教学远程协助直接联系我<br/><br/>2.如果你想去外网看谷歌油管，学习注入器写脚本，那么你肯定需要一个翻墙VPN<br/><br/>3.VPN40元一个月，我已经稳定用了很多年，需要的话可以找我<br/><br/><font color='rgb(255,255,0)'>【推广活动】长期有效</font><br/><br/>1.把Roblox脚本中心的代码转发到任意群并截图，10次=1元<br/><br/>2.在抖音，快手，B站等平台做视频并在评论里置顶Roblox脚本中心的代码，1次=3元<br/><br/>3.推荐别人购买，成交后推荐人获得25%佣金<br/><br/><font color='rgb(255,255,0)'>【元旦活动】</font><br/><br/>估计脚本中心上线时，元旦假期已经结束了，但为了庆祝脚本中心成立<br/><br/>1.购买任意服务，满30元减6元，截止到春节前"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 16.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+Frame_10.Name = "横分割线"
+Frame_10.Parent = Frame
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BackgroundTransparency = 0.300
+Frame_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.15015015, 0, 0.92140919, 0)
+Frame_10.Size = UDim2.new(0.84984982, 0, 0, 1)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 203, 100)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 170, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 255, 55)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Parent = Frame_10
+
+ScrollingFrame_2.Name = "代练代刷显示区"
+ScrollingFrame_2.Parent = Frame
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Position = UDim2.new(0.169669673, 0, 0.200542003, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 537, 0, 266)
+ScrollingFrame_2.Visible = false
+ScrollingFrame_2.ScrollBarThickness = 6
+
+TextLabel_4.Name = "代刷代练"
+TextLabel_4.Parent = ScrollingFrame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0229681972, 0, 5.14415551e-05, 0)
+TextLabel_4.Size = UDim2.new(1, 0, 0, 0)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "<font color='rgb(255,255,0)'>【Roblox游戏代练代刷价格表】最低16R起刷</font><br/><br/>1.<font color='rgb(255,255,0)'>【BloxFruit】</font>：人物等级100级=5R，技能等级100级=5R，F币1000=2R，绿钞100W=9R<br/><br/>2.<font color='rgb(255,255,0)'>【KingLegacy国王遗产】</font>人物等级100级=6R<br/><br/>3.<font color='rgb(255,255,0)'>【死铁轨】</font>债券100张=3R（通过送火车，职业等方式交易）<br/><br/>4.<font color='rgb(255,255,0)'>【99夜在森林里】</font>挂机刷天数100天=13R，帮打钻石兼刷天数1小时=19R<br/><br/>5.<font color='rgb(255,255,0)'>【伐木大亨2】</font>19把不同斧子套装=19R，多头斧和末日斧1把=2R<br/><br/>6.<font color='rgb(255,255,0)'>【战争大亨】</font>3元刷一转，6元刷2转，9元刷三转以此类推，资金1000万=9元<br/><br/>7.<font color='rgb(255,255,0)'>【造船寻宝】</font>金币1000=3R<br/><br/>8.<font color='rgb(255,255,0)'>【极速传奇】</font>刷数值和转生1小时=16R，比手动快10倍<br/><br/>9.<font color='rgb(255,255,0)'>【忍者传奇】</font>刷数值和转生1小时=13R，比手动快5倍"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_4.TextYAlignment = Enum.TextYAlignment.Top
+
+UIListLayout_2.Parent = ScrollingFrame_2
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+ScrollingFrame_3.Name = "广告位显示区"
+ScrollingFrame_3.Parent = Frame
+ScrollingFrame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_3.BackgroundTransparency = 1.000
+ScrollingFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_3.BorderSizePixel = 0
+ScrollingFrame_3.Position = UDim2.new(0.169669673, 0, 0.200542003, 0)
+ScrollingFrame_3.Size = UDim2.new(0, 537, 0, 266)
+ScrollingFrame_3.Visible = false
+ScrollingFrame_3.ScrollBarThickness = 6
+
+TextLabel_5.Name = "广告位"
+TextLabel_5.Parent = ScrollingFrame_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0, 0, -0.0013550549, 0)
+TextLabel_5.Size = UDim2.new(1, 0, 0, 0)
+TextLabel_5.Font = Enum.Font.Unknown
+TextLabel_5.Text = "<font color='rgb(255,255,0)'>【广告位招租须知】</font><br/><br/>1.广告位的初衷是为了让玩家互通有无，价格为30元一个月<br/><br/>2.接受代练，代充，游戏道具，成品号，以及一切奇奇怪怪的广告<br/><br/>3.任何运行脚本中心的玩家都可以看到你的广告<br/><br/>4.广告位格式：一张你认为亮眼的Logo+你的昵称+广告内容+联系方式<br/><br/>5.本人不提供担保服务，任何交易都由双方私下协商。"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 16.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_5.TextYAlignment = Enum.TextYAlignment.Top
+
+UIListLayout_3.Parent = ScrollingFrame_3
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 16)
+
+_1_2.Name = "广告1"
+_1_2.Parent = ScrollingFrame_3
+_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1_2.BorderSizePixel = 0
+_1_2.Position = UDim2.new(0, 0, 0.260162592, 0)
+_1_2.Size = UDim2.new(0, 64, 0, 64)
+_1_2.Image = "rbxassetid://138288475364166"
+
+_1_3.Name = "广告1"
+_1_3.Parent = _1_2
+_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_3.BackgroundTransparency = 1.000
+_1_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+_1_3.BorderSizePixel = 0
+_1_3.Position = UDim2.new(1, 0, 0, 0)
+_1_3.Size = UDim2.new(0, 450, 0, 64)
+_1_3.Font = Enum.Font.Unknown
+_1_3.Text = "<font color='rgb(255,255,0)'>Roblox黑科技</font><br/>脚本，注入器，VPN有需要请添加我的联系方式<br/>QQ微信同号：39075184"
+_1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1_3.TextSize = 16.000
+_1_3.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 16)
+UICorner_5.Parent = _1_2
+
+_2_2.Name = "广告2"
+_2_2.Parent = ScrollingFrame_3
+_2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2_2.BorderSizePixel = 0
+_2_2.Position = UDim2.new(0, 0, 0.260162592, 0)
+_2_2.Size = UDim2.new(0, 64, 0, 64)
+_2_2.Image = "rbxassetid://8508980527"
+
+_2_3.Name = "广告2"
+_2_3.Parent = _2_2
+_2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_3.BackgroundTransparency = 1.000
+_2_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+_2_3.BorderSizePixel = 0
+_2_3.Position = UDim2.new(1, 0, 0, 0)
+_2_3.Size = UDim2.new(0, 450, 0, 64)
+_2_3.Font = Enum.Font.Unknown
+_2_3.Text = "<font color='rgb(255,255,0)'>7沐</font><br/>收弃坑号，重氪号，回收R币，见号估值<br/>QQ：3877498557"
+_2_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2_3.TextSize = 16.000
+_2_3.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 16)
+UICorner_6.Parent = _2_2
+
+ScrollingFrame_4.Name = "免费脚本显示区"
+ScrollingFrame_4.Parent = Frame
+ScrollingFrame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_4.BackgroundTransparency = 1.000
+ScrollingFrame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_4.BorderSizePixel = 0
+ScrollingFrame_4.Position = UDim2.new(0.169669673, 0, 0.200542003, 0)
+ScrollingFrame_4.Size = UDim2.new(0, 537, 0, 266)
+ScrollingFrame_4.Visible = false
+ScrollingFrame_4.ScrollBarThickness = 6
+
+TextLabel_6.Name = "免费脚本"
+TextLabel_6.Parent = ScrollingFrame_4
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0229681972, 0, 0.000136005852, 0)
+TextLabel_6.Size = UDim2.new(1, 0, 0, 0)
+TextLabel_6.Font = Enum.Font.Unknown
+TextLabel_6.Text = "<font color='rgb(255,255,0)'>免费的脚本，密钥统一为robloxheikeji，点击图片开启</font>"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 16.000
+TextLabel_6.TextWrapped = true
+
+UIListLayout_4.Parent = ScrollingFrame_4
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 16)
+
+ImageButton_2.Name = "飞行"
+ImageButton_2.Parent = ScrollingFrame_4
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_2.BorderSizePixel = 0
+ImageButton_2.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_2.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_2.Image = "rbxassetid://6159266"
+
+TextLabel_7.Name = "脚本介绍"
+TextLabel_7.Parent = ImageButton_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "<font color='rgb(255,255,0)'>通用飞行</font><br/>全游戏飞行，加速，部分游戏可穿墙"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 16.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_7.CornerRadius = UDim.new(0, 16)
+UICorner_7.Parent = ImageButton_2
+
+ImageButton_3.Name = "飞车"
+ImageButton_3.Parent = ScrollingFrame_4
+ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_3.BorderSizePixel = 0
+ImageButton_3.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_3.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_3.Image = "rbxassetid://5002002011"
+
+TextLabel_8.Name = "脚本介绍"
+TextLabel_8.Parent = ImageButton_3
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_8.Font = Enum.Font.Unknown
+TextLabel_8.Text = "<font color='rgb(255,255,0)'>通用载具飞行</font><br/>全游戏载具飞行，加速"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 16.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.CornerRadius = UDim.new(0, 16)
+UICorner_8.Parent = ImageButton_3
+
+ImageButton_4.Name = "透视"
+ImageButton_4.Parent = ScrollingFrame_4
+ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_4.BorderSizePixel = 0
+ImageButton_4.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_4.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_4.Image = "rbxassetid://17188809619"
+
+TextLabel_9.Name = "脚本介绍"
+TextLabel_9.Parent = ImageButton_4
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_9.Font = Enum.Font.Unknown
+TextLabel_9.Text = "<font color='rgb(255,255,0)'>通用透视</font><br/>全游戏透视所有玩家，名称，体积，血量，距离"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 16.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_9.CornerRadius = UDim.new(0, 16)
+UICorner_9.Parent = ImageButton_4
+
+ImageButton_5.Name = "坐标传送"
+ImageButton_5.Parent = ScrollingFrame_4
+ImageButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_5.BorderSizePixel = 0
+ImageButton_5.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_5.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_5.Image = "rbxassetid://91831737962427"
+
+TextLabel_10.Name = "脚本介绍"
+TextLabel_10.Parent = ImageButton_5
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_10.Font = Enum.Font.Unknown
+TextLabel_10.Text = "<font color='rgb(255,255,0)'>通用瞬移</font><br/>全游戏传送，记录要传送的坐标，点击瞬间到达"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 16.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_10.CornerRadius = UDim.new(0, 16)
+UICorner_10.Parent = ImageButton_5
+
+ImageButton_6.Name = "隐身"
+ImageButton_6.Parent = ScrollingFrame_4
+ImageButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_6.BorderSizePixel = 0
+ImageButton_6.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_6.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_6.Image = "rbxassetid://90273055"
+
+TextLabel_11.Name = "脚本介绍"
+TextLabel_11.Parent = ImageButton_6
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_11.Font = Enum.Font.Unknown
+TextLabel_11.Text = "<font color='rgb(255,255,0)'>通用隐身</font><br/>全游戏隐身，但隐身时不可互动，需要互动时先关闭此功能"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 16.000
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_11.CornerRadius = UDim.new(0, 16)
+UICorner_11.Parent = ImageButton_6
+
+ScrollingFrame_5.Name = "包月制脚本显示区"
+ScrollingFrame_5.Parent = Frame
+ScrollingFrame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_5.BackgroundTransparency = 1.000
+ScrollingFrame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_5.BorderSizePixel = 0
+ScrollingFrame_5.Position = UDim2.new(0.169669673, 0, 0.200542003, 0)
+ScrollingFrame_5.Size = UDim2.new(0, 537, 0, 266)
+ScrollingFrame_5.ScrollBarThickness = 6
+
+TextLabel_12.Name = "包月制脚本"
+TextLabel_12.Parent = ScrollingFrame_5
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.0229681972, 0, 0.000136005852, 0)
+TextLabel_12.Size = UDim2.new(1, 0, 0, 0)
+TextLabel_12.Font = Enum.Font.Unknown
+TextLabel_12.Text = "<font color='rgb(255,255,0)'>包月制脚本是用来代练赚米的商业脚本，功能非常强劲，价格为每月30元</font>"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 16.000
+TextLabel_12.TextWrapped = true
+
+UIListLayout_5.Parent = ScrollingFrame_5
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 16)
+
+_2_4.Name = "伐木大亨2"
+_2_4.Parent = ScrollingFrame_5
+_2_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2_4.BorderSizePixel = 0
+_2_4.Position = UDim2.new(0, 0, 0.260162592, 0)
+_2_4.Size = UDim2.new(0, 64, 0, 64)
+_2_4.Image = "rbxassetid://834666972"
+
+TextLabel_13.Name = "脚本介绍"
+TextLabel_13.Parent = _2_4
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_13.Font = Enum.Font.Unknown
+TextLabel_13.Text = "<font color='rgb(255,255,0)'>伐木大亨2</font><br/>无限复制所有斧子，远程砍树并带回基地，无视树木体积直接加工为超级长的木板<br/>自动将木板或树木出售，免费把基地扩建到最大，飞行加速，改变天气等等"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 16.000
+TextLabel_13.TextWrapped = true
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_12.CornerRadius = UDim.new(0, 16)
+UICorner_12.Parent = _2_4
+
+ImageButton_7.Name = "锻造"
+ImageButton_7.Parent = ScrollingFrame_5
+ImageButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_7.BorderSizePixel = 0
+ImageButton_7.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_7.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_7.Image = "rbxassetid://96163608506723"
+
+TextLabel_14.Name = "脚本介绍"
+TextLabel_14.Parent = ImageButton_7
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_14.Font = Enum.Font.Unknown
+TextLabel_14.Text = "<font color='rgb(255,255,0)'>锻造 TheForge</font><br/>自动采集，可选择矿区或特定矿石，自动锻造，所有小游戏自动操作，装备全部完美<br/>自动刷怪，可自由指定怪物，瞬间传送岛屿等"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 16.000
+TextLabel_14.TextWrapped = true
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_13.CornerRadius = UDim.new(0, 16)
+UICorner_13.Parent = ImageButton_7
+
+ImageButton_8.Name = "死铁轨"
+ImageButton_8.Parent = ScrollingFrame_5
+ImageButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_8.BorderSizePixel = 0
+ImageButton_8.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_8.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_8.Image = "rbxassetid://122874126897828"
+
+TextLabel_15.Name = "脚本介绍"
+TextLabel_15.Parent = ImageButton_8
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_15.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_15.Font = Enum.Font.Unknown
+TextLabel_15.Text = "<font color='rgb(255,255,0)'>死铁轨</font><br/>进图后开启脚本，自动刷债券，开启后不到2分钟一局，一局平均获得80债券"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 16.000
+TextLabel_15.TextWrapped = true
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_14.CornerRadius = UDim.new(0, 16)
+UICorner_14.Parent = ImageButton_8
+
+ImageButton_9.Name = "战争大亨"
+ImageButton_9.Parent = ScrollingFrame_5
+ImageButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_9.BorderSizePixel = 0
+ImageButton_9.Position = UDim2.new(0, 0, 0.260162592, 0)
+ImageButton_9.Size = UDim2.new(0, 64, 0, 64)
+ImageButton_9.Image = "rbxassetid://17263231144"
+
+TextLabel_16.Name = "脚本介绍"
+TextLabel_16.Parent = ImageButton_9
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(1.265625, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 433, 0, 64)
+TextLabel_16.Font = Enum.Font.Unknown
+TextLabel_16.Text = "<font color='rgb(255,255,0)'>战争大亨</font><br/>自动偷其他玩家零件，运气好分分钟上千万资金，透视自瞄，飞天加速，自动重生"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 16.000
+TextLabel_16.TextWrapped = true
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_15.CornerRadius = UDim.new(0, 16)
+UICorner_15.Parent = ImageButton_9
+
+-- Scripts:
+
+local function EOWVL_fake_script() -- Frame.加边框加流动渐变 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent
+	
+	-- 添加白色厚度1的UIStroke + 粉色渐变
+	local s = Instance.new("UIStroke", frame)
+	s.Thickness = 1
+	s.Color = Color3.new(1,1,1)
+	
+	local g = Instance.new("UIGradient", s)
+	g.Color = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,   Color3.new(1,1,1)),
+		ColorSequenceKeypoint.new(0.25,Color3.fromRGB(255,255,55)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255,255,0)),
+		ColorSequenceKeypoint.new(0.75,Color3.fromRGB(255,255,55)),
+		ColorSequenceKeypoint.new(1,   Color3.new(1,1,1))
+	}
+	
+	-- 颜色流动（单向无限循环，3秒一圈）
+	game:GetService("TweenService"):Create(
+		g,
+		TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.In, -1),
+		{Offset = Vector2.new(1, 0)}
+	):Play()
+	
+	-- 拖拽功能（手机+电脑通用）
+	local dragging, dragStart, startPos
+	local uis = game:GetService("UserInputService")
+	
+	local function update(input)
+		if dragging then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y
+			)
+		end
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(EOWVL_fake_script)()
+local function MJDDHZE_fake_script() -- Frame_2.流动渐变 
+	local script = Instance.new('LocalScript', Frame_2)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
+	tween:Play()
+end
+coroutine.wrap(MJDDHZE_fake_script)()
+local function DVPLJK_fake_script() -- Frame_3.流动渐变 
+	local script = Instance.new('LocalScript', Frame_3)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(0, -1)})
+	tween:Play()
+end
+coroutine.wrap(DVPLJK_fake_script)()
+local function TXMA_fake_script() -- TextLabel.文字随机变色 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local ts = game:GetService("TweenService")
+	local label = script.Parent
+	
+	while true do
+		local hue = tick() % 5 / 5          -- 5秒一圈彩虹，改大数字=更慢
+		local color = Color3.fromHSV(hue, 1, 1)
+	
+		ts:Create(label, TweenInfo.new(1.2, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {
+			TextColor3 = color
+		}):Play()
+	
+		task.wait(1.2)
+	end
+end
+coroutine.wrap(TXMA_fake_script)()
+local function OUXZI_fake_script() -- TextLabel.文字设定 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local l=script.Parent
+	local ts=game:GetService("TweenService")
+	
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=19
+	l.TextColor3=Color3.new(1,1,1)
+	l.TextXAlignment=Enum.TextXAlignment.Left
+end
+coroutine.wrap(OUXZI_fake_script)()
+local function SIFNHMG_fake_script() -- _2.文字设定 
+	local script = Instance.new('LocalScript', _2)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(SIFNHMG_fake_script)()
+local function MCWGPL_fake_script() -- ImageButton.关闭 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	-- 这个 LocalScript 直接放在 ImageButton 里面就行
+	-- 结构：ScreenGui → Frame → ImageButton
+	
+	local button = script.Parent              -- 图片按钮
+	local frame = button.Parent               -- Frame
+	local screenGui = frame.Parent            -- ScreenGui
+	
+	local TweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+	
+	-- 让所有 UI 元素渐隐（包括按钮自己）
+	local function fadeOutAll()
+		for _, obj in ipairs(screenGui:GetDescendants()) do
+			if obj:IsA("GuiObject") then
+				if obj:IsA("ImageButton") or obj:IsA("ImageLabel") then
+					TweenService:Create(obj, tweenInfo, {ImageTransparency = 1}):Play()
+				else
+					TweenService:Create(obj, tweenInfo, {Transparency = 1}):Play()
+				end
+			end
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		fadeOutAll()                    -- 开始 3 秒渐隐
+		task.delay(3, function()        -- 3秒后彻底关闭
+			screenGui.Enabled = false   -- 隐藏 ScreenGui（最常用）
+			-- 如果想永久删除，用下面这行代替：
+			-- screenGui:Destroy()
+		end)
+	end)
+end
+coroutine.wrap(MCWGPL_fake_script)()
+local function MQHJG_fake_script() -- _1.文字设定 
+	local script = Instance.new('LocalScript', _1)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(MQHJG_fake_script)()
+local function CETRWUL_fake_script() -- TextButton.隐藏其他显示区 
+	local script = Instance.new('LocalScript', TextButton)
+
+	-- LocalScript：直接放在“公告及活动”TextButton里面
+	
+	local button=script.Parent
+	local frame=button.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _,sf in frame:GetChildren()do
+			if sf:IsA("ScrollingFrame")then
+				sf.Visible=sf.Name=="免费脚本显示区"
+			end
+		end
+	end)
+end
+coroutine.wrap(CETRWUL_fake_script)()
+local function CBHIOF_fake_script() -- TextButton.文字设定 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(0.333333, 1, 0.498039)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(CBHIOF_fake_script)()
+local function UCFQGT_fake_script() -- Frame_4.流动渐变 
+	local script = Instance.new('LocalScript', Frame_4)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
+	tween:Play()
+end
+coroutine.wrap(UCFQGT_fake_script)()
+local function EVCT_fake_script() -- TextButton_2.文字设定 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(0.333333, 1, 0.498039)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(EVCT_fake_script)()
+local function WHBZOX_fake_script() -- TextButton_2.隐藏其他显示区 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	-- LocalScript：直接放在“公告及活动”TextButton里面
+	
+	local button=script.Parent
+	local frame=button.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _,sf in frame:GetChildren()do
+			if sf:IsA("ScrollingFrame")then
+				sf.Visible=sf.Name=="买断制脚本显示区"
+			end
+		end
+	end)
+end
+coroutine.wrap(WHBZOX_fake_script)()
+local function QMZW_fake_script() -- Frame_5.流动渐变 
+	local script = Instance.new('LocalScript', Frame_5)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
+	tween:Play()
+end
+coroutine.wrap(QMZW_fake_script)()
+local function OPKZD_fake_script() -- TextButton_3.文字设定 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(0.333333, 1, 0.498039)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(OPKZD_fake_script)()
+local function CQKH_fake_script() -- TextButton_3.隐藏其他显示区 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	-- LocalScript：直接放在“公告及活动”TextButton里面
+	
+	local button=script.Parent
+	local frame=button.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _,sf in frame:GetChildren()do
+			if sf:IsA("ScrollingFrame")then
+				sf.Visible=sf.Name=="包月制脚本显示区"
+			end
+		end
+	end)
+end
+coroutine.wrap(CQKH_fake_script)()
+local function CJMW_fake_script() -- Frame_6.流动渐变 
+	local script = Instance.new('LocalScript', Frame_6)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
+	tween:Play()
+end
+coroutine.wrap(CJMW_fake_script)()
+local function EEWLTPC_fake_script() -- TextButton_4.隐藏其他显示区 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	-- LocalScript：直接放在“公告及活动”TextButton里面
+	
+	local button=script.Parent
+	local frame=button.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _,sf in frame:GetChildren()do
+			if sf:IsA("ScrollingFrame")then
+				sf.Visible=sf.Name=="公告及活动显示区"
+			end
+		end
+	end)
+end
+coroutine.wrap(EEWLTPC_fake_script)()
+local function FNXDP_fake_script() -- TextButton_4.文字设定 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(0.333333, 1, 0.498039)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(FNXDP_fake_script)()
+local function UGTSMPT_fake_script() -- TextButton_5.隐藏其他显示区 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	-- LocalScript：直接放在“公告及活动”TextButton里面
+	
+	local button=script.Parent
+	local frame=button.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _,sf in frame:GetChildren()do
+			if sf:IsA("ScrollingFrame")then
+				sf.Visible=sf.Name=="代练代刷显示区"
+			end
+		end
+	end)
+end
+coroutine.wrap(UGTSMPT_fake_script)()
+local function JFIC_fake_script() -- TextButton_5.文字设定 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(0.333333, 1, 0.498039)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(JFIC_fake_script)()
+local function FVKDNQM_fake_script() -- Frame_7.流动渐变 
+	local script = Instance.new('LocalScript', Frame_7)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
+	tween:Play()
+end
+coroutine.wrap(FVKDNQM_fake_script)()
+local function XQRZSW_fake_script() -- Frame_8.流动渐变 
+	local script = Instance.new('LocalScript', Frame_8)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
+	tween:Play()
+end
+coroutine.wrap(XQRZSW_fake_script)()
+local function EZTNEX_fake_script() -- Frame_9.流动渐变 
+	local script = Instance.new('LocalScript', Frame_9)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(-1, 0)})
+	tween:Play()
+end
+coroutine.wrap(EZTNEX_fake_script)()
+local function ORIRUX_fake_script() -- TextButton_6.隐藏其他显示区 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	-- LocalScript：直接放在“公告及活动”TextButton里面
+	
+	local button=script.Parent
+	local frame=button.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _,sf in frame:GetChildren()do
+			if sf:IsA("ScrollingFrame")then
+				sf.Visible=sf.Name=="广告位显示区"
+			end
+		end
+	end)
+end
+coroutine.wrap(ORIRUX_fake_script)()
+local function ORNL_fake_script() -- TextButton_6.文字设定 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(0.333333, 1, 0.498039)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(ORNL_fake_script)()
+local function EGTWK_fake_script() -- TextLabel_2.欢迎语+玩家Name 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 0)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+	
+	--输出欢迎语
+	script.Parent.Text = "恁好！" .. game.Players.LocalPlayer.Name .. "，咨询或购买请添加我的联系方式 👉 "
+end
+coroutine.wrap(EGTWK_fake_script)()
+local function MHRPB_fake_script() -- ImageLabel_2.显示玩家头像 
+	local script = Instance.new('LocalScript', ImageLabel_2)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local imageLabel = script.Parent
+	
+	local content, isReady = Players:GetUserThumbnailAsync(
+		player.UserId,
+		Enum.ThumbnailType.HeadShot,
+		Enum.ThumbnailSize.Size420x420
+	)
+	
+	imageLabel.Image = isReady and content or "rbxasset://textures/ui/GuiImagePlaceholder.png"
+end
+coroutine.wrap(MHRPB_fake_script)()
+local function CZNLL_fake_script() -- TextLabel_3.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1,1,1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	l.TextYAlignment = Enum.TextYAlignment.Top
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(CZNLL_fake_script)()
+local function DPNI_fake_script() -- ScrollingFrame.滚动设定 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	local sf=script.Parent
+	
+	--根据内容轴调整大小
+	sf.AutomaticCanvasSize = Enum.AutomaticSize.None
+	
+	--滚动条粗细
+	sf.ScrollBarThickness = 6
+	
+	--滚动条颜色
+	sf.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 127)
+	
+	--自动计算画布大小
+	sf.CanvasSize = UDim2.new(0, 0, 0, 0)
+	
+	--超出边缘自动裁切
+	sf.ClipsDescendants = true
+	
+	--是否允许滚动
+	sf.ScrollingEnabled = true
+	
+	--获取列表
+	local listLayout = sf:WaitForChild("UIListLayout")
+	
+	--列表垂直排列
+	listLayout.FillDirection = Enum.FillDirection.Vertical
+	
+	--列表排列顺序
+	listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	--列表行间距
+	listLayout.Padding = UDim.new(0, 16)
+	
+	--不懂但有用
+	local function updateCanvas()
+		sf.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y)
+	end
+	
+	-- 监听变化（实时更新，动态加元件完美）
+	listLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvas)
+	
+	-- 初始更新（等布局计算完，避 Studio 延迟）
+	task.spawn(function()
+		task.wait()  -- 等 1 帧
+		updateCanvas()
+	end)
+end
+coroutine.wrap(DPNI_fake_script)()
+local function IHLT_fake_script() -- Frame_10.流动渐变 
+	local script = Instance.new('LocalScript', Frame_10)
+
+	local gradient = script.Parent.UIGradient
+	local TweenService = game:GetService("TweenService")
+	local tween = TweenService:Create(gradient, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1, true), {Offset = Vector2.new(1, 0)})
+	tween:Play()
+end
+coroutine.wrap(IHLT_fake_script)()
+local function EGON_fake_script() -- TextLabel_4.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1,1,1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	l.TextYAlignment = Enum.TextYAlignment.Top
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(EGON_fake_script)()
+local function VWPSLG_fake_script() -- ScrollingFrame_2.滚动设定 
+	local script = Instance.new('LocalScript', ScrollingFrame_2)
+
+	local sf=script.Parent
+	
+	--根据内容轴调整大小
+	sf.AutomaticCanvasSize = Enum.AutomaticSize.None
+	
+	--滚动条粗细
+	sf.ScrollBarThickness = 6
+	
+	--滚动条颜色
+	sf.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 127)
+	
+	--自动计算画布大小
+	sf.CanvasSize = UDim2.new(0, 0, 0, 0)
+	
+	--超出边缘自动裁切
+	sf.ClipsDescendants = true
+	
+	--是否允许滚动
+	sf.ScrollingEnabled = true
+	
+	--获取列表
+	local listLayout = sf:WaitForChild("UIListLayout")
+	
+	--列表垂直排列
+	listLayout.FillDirection = Enum.FillDirection.Vertical
+	
+	--列表排列顺序
+	listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	--列表行间距
+	listLayout.Padding = UDim.new(0, 16)
+	
+	--不懂但有用
+	local function updateCanvas()
+		sf.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y)
+	end
+	
+	-- 监听变化（实时更新，动态加元件完美）
+	listLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvas)
+	
+	-- 初始更新（等布局计算完，避 Studio 延迟）
+	task.spawn(function()
+		task.wait()  -- 等 1 帧
+		updateCanvas()
+	end)
+end
+coroutine.wrap(VWPSLG_fake_script)()
+local function XMVZ_fake_script() -- ScrollingFrame_3.滚动设定 
+	local script = Instance.new('LocalScript', ScrollingFrame_3)
+
+	local sf=script.Parent
+	
+	--根据内容轴调整大小
+	sf.AutomaticCanvasSize = Enum.AutomaticSize.None
+	
+	--滚动条粗细
+	sf.ScrollBarThickness = 6
+	
+	--滚动条颜色
+	sf.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 127)
+	
+	--自动计算画布大小
+	sf.CanvasSize = UDim2.new(0, 0, 0, 0)
+	
+	--超出边缘自动裁切
+	sf.ClipsDescendants = true
+	
+	--是否允许滚动
+	sf.ScrollingEnabled = true
+	
+	--获取列表
+	local listLayout = sf:WaitForChild("UIListLayout")
+	
+	--列表垂直排列
+	listLayout.FillDirection = Enum.FillDirection.Vertical
+	
+	--列表排列顺序
+	listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	--列表行间距
+	listLayout.Padding = UDim.new(0, 16)
+	
+	--不懂但有用
+	local function updateCanvas()
+		sf.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y)
+	end
+	
+	-- 监听变化（实时更新，动态加元件完美）
+	listLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvas)
+	
+	-- 初始更新（等布局计算完，避 Studio 延迟）
+	task.spawn(function()
+		task.wait()  -- 等 1 帧
+		updateCanvas()
+	end)
+end
+coroutine.wrap(XMVZ_fake_script)()
+local function NLATJE_fake_script() -- TextLabel_5.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_5)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(NLATJE_fake_script)()
+local function CDVNT_fake_script() -- _1_3.文字设定 
+	local script = Instance.new('LocalScript', _1_3)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(CDVNT_fake_script)()
+local function JLWNGU_fake_script() -- _2_3.文字设定 
+	local script = Instance.new('LocalScript', _2_3)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(JLWNGU_fake_script)()
+local function HBQWSP_fake_script() -- TextLabel_6.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1,1,1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(HBQWSP_fake_script)()
+local function BRIQBUL_fake_script() -- ScrollingFrame_4.滚动设定 
+	local script = Instance.new('LocalScript', ScrollingFrame_4)
+
+	local sf=script.Parent
+	
+	--根据内容轴调整大小
+	sf.AutomaticCanvasSize = Enum.AutomaticSize.None
+	
+	--滚动条粗细
+	sf.ScrollBarThickness = 6
+	
+	--滚动条颜色
+	sf.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 127)
+	
+	--自动计算画布大小
+	sf.CanvasSize = UDim2.new(0, 0, 0, 0)
+	
+	--超出边缘自动裁切
+	sf.ClipsDescendants = true
+	
+	--是否允许滚动
+	sf.ScrollingEnabled = true
+	
+	--获取列表
+	local listLayout = sf:WaitForChild("UIListLayout")
+	
+	--列表垂直排列
+	listLayout.FillDirection = Enum.FillDirection.Vertical
+	
+	--列表排列顺序
+	listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	--列表行间距
+	listLayout.Padding = UDim.new(0, 16)
+	
+	--不懂但有用
+	local function updateCanvas()
+		sf.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y)
+	end
+	
+	-- 监听变化（实时更新，动态加元件完美）
+	listLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvas)
+	
+	-- 初始更新（等布局计算完，避 Studio 延迟）
+	task.spawn(function()
+		task.wait()  -- 等 1 帧
+		updateCanvas()
+	end)
+end
+coroutine.wrap(BRIQBUL_fake_script)()
+local function YIMQL_fake_script() -- TextLabel_7.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_7)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(YIMQL_fake_script)()
+local function GVAEI_fake_script() -- ImageButton_2.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_2)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFly.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要运行"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥钥已插入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end
+coroutine.wrap(GVAEI_fake_script)()
+local function GOUWQZ_fake_script() -- TextLabel_8.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_8)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(GOUWQZ_fake_script)()
+local function LRKAL_fake_script() -- ImageButton_3.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_3)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFlyCar.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要运行"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥钥已插入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end
+coroutine.wrap(LRKAL_fake_script)()
+local function PKKX_fake_script() -- TextLabel_9.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_9)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(PKKX_fake_script)()
+local function MRBW_fake_script() -- ImageButton_4.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_4)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalEsp.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要运行"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥钥已插入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end
+coroutine.wrap(MRBW_fake_script)()
+local function OCJCSDC_fake_script() -- TextLabel_10.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_10)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(OCJCSDC_fake_script)()
+local function DPLA_fake_script() -- ImageButton_5.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_5)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalTpToCoordinates.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要运行"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥钥已插入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end
+coroutine.wrap(DPLA_fake_script)()
+local function TXOFLM_fake_script() -- TextLabel_11.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_11)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(TXOFLM_fake_script)()
+local function BRWYAVW_fake_script() -- ImageButton_6.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_6)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 使用 loadstring(game:HttpGet) 方式读取密钥（按你成功的方法）
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
+	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	-- 最终要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalInvisibility.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 创建简洁的 UI
+		local gui = Instance.new("ScreenGui")
+		gui.ResetOnSpawn = false
+		gui.Parent = player:WaitForChild("PlayerGui")
+	
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 340, 0, 190)
+		frame.Position = UDim2.new(0.5, -170, 0.5, -95)
+		frame.BackgroundColor3 = Color3.new(1, 1, 1)          -- 纯白背景
+		frame.BorderSizePixel = 0
+		frame.Parent = gui
+	
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 14)
+		corner.Parent = frame
+	
+		-- 标题
+		local title = Instance.new("TextLabel")
+		title.Size = UDim2.new(1, 0, 0, 50)
+		title.BackgroundTransparency = 1
+		title.Text = "Roblox黑科技脚本中心密钥系统"
+		title.TextColor3 = Color3.new(0, 0, 0)               -- 黑色
+		title.TextSize = 20
+		title.Font = Enum.Font.SourceSansBold                -- 加粗
+		title.TextWrapped = true
+		title.Parent = frame
+	
+		-- 输入框（浅灰）
+		local input = Instance.new("TextBox")
+		input.Size = UDim2.new(0.9, 0, 0, 42)
+		input.Position = UDim2.new(0.05, 0, 0.32, 0)
+		input.BackgroundColor3 = Color3.fromRGB(240, 240, 240)  -- 浅灰
+		input.TextColor3 = Color3.new(0, 0, 0)
+		input.PlaceholderText = "请输入恁的密钥钥..."
+		input.PlaceholderColor3 = Color3.fromRGB(140, 140, 140)
+		input.Text = ""
+		input.TextSize = 18
+		input.Font = Enum.Font.SourceSans
+		input.ClearTextOnFocus = false
+		input.Parent = frame
+	
+		local inputCorner = Instance.new("UICorner")
+		inputCorner.CornerRadius = UDim.new(0, 10)
+		inputCorner.Parent = input
+	
+		-- 提交按钮（浅灰）
+		local submit = Instance.new("TextButton")
+		submit.Size = UDim2.new(0.9, 0, 0, 42)
+		submit.Position = UDim2.new(0.05, 0, 0.58, 0)
+		submit.BackgroundColor3 = Color3.fromRGB(235, 235, 235)  -- 浅灰
+		submit.TextColor3 = Color3.new(0, 0, 0)
+		submit.Text = "俺要运行"
+		submit.TextSize = 18
+		submit.Font = Enum.Font.SourceSansBold
+		submit.Parent = frame
+	
+		local submitCorner = Instance.new("UICorner")
+		submitCorner.CornerRadius = UDim.new(0, 10)
+		submitCorner.Parent = submit
+	
+		-- 关闭按钮
+		local close = Instance.new("TextButton")
+		close.Size = UDim2.new(0, 34, 0, 34)
+		close.Position = UDim2.new(1, -40, 0, 6)
+		close.BackgroundTransparency = 1
+		close.Text = "×"
+		close.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+		close.TextSize = 26
+		close.Font = Enum.Font.SourceSansBold
+		close.Parent = frame
+	
+		close.MouseButton1Click:Connect(function()
+			gui:Destroy()
+		end)
+	
+		-- 提交逻辑（使用你成功的读取方式）
+		local function checkKey()
+			local success, result = pcall(function()
+				return loadstring('return game:HttpGet("' .. KEY_URL .. '", true)')()
+			end)
+	
+			if not success then
+				StarterGui:SetCore("SendNotification", {
+					Title = "无法连接服务器",
+					Text = "大概率是恁的网络或者加速器VPN的问题，导致恁提交了空密钥",
+					Duration = 6
+				})
+				return
+			end
+	
+			local correctKey = tostring(result):gsub("%s+", ""):lower()  -- 清理
+			local userInput = input.Text:gsub("%s+", ""):lower()
+	
+			if userInput == correctKey then
+				gui:Destroy()
+				local loadOk, err = pcall(function()
+					loadstring(game:HttpGet(SCRIPT_URL, true))()
+				end)
+				if loadOk then
+					StarterGui:SetCore("SendNotification", {
+						Title = "密钥钥已插入",
+						Text = "恁的脚本加载成功！",
+						Duration = 5
+					})
+				else
+					StarterGui:SetCore("SendNotification", {
+						Title = "脚本加载失败",
+						Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+						Duration = 6
+					})
+				end
+			else
+				-- 修改为：输入错误 → 直接踢出玩家
+				player:Kick("恁的密钥钥是错误滴，所以踢恁下线，请联系管理员获取正确滴密钥钥，390751814微信QQ同号")
+			end
+		end
+	
+		-- 点击按钮 & 回车都可提交
+		submit.MouseButton1Click:Connect(checkKey)
+		input.FocusLost:Connect(function(enterPressed)
+			if enterPressed then
+				checkKey()
+			end
+		end)
+	end)
+end
+coroutine.wrap(BRWYAVW_fake_script)()
+local function KLYJKGG_fake_script() -- TextLabel_12.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_12)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1,1,1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Center
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(KLYJKGG_fake_script)()
+local function VWDQL_fake_script() -- ScrollingFrame_5.滚动设定 
+	local script = Instance.new('LocalScript', ScrollingFrame_5)
+
+	local sf=script.Parent
+	
+	--根据内容轴调整大小
+	sf.AutomaticCanvasSize = Enum.AutomaticSize.None
+	
+	--滚动条粗细
+	sf.ScrollBarThickness = 6
+	
+	--滚动条颜色
+	sf.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 127)
+	
+	--自动计算画布大小
+	sf.CanvasSize = UDim2.new(0, 0, 0, 0)
+	
+	--超出边缘自动裁切
+	sf.ClipsDescendants = true
+	
+	--是否允许滚动
+	sf.ScrollingEnabled = true
+	
+	--获取列表
+	local listLayout = sf:WaitForChild("UIListLayout")
+	
+	--列表垂直排列
+	listLayout.FillDirection = Enum.FillDirection.Vertical
+	
+	--列表排列顺序
+	listLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	
+	--列表行间距
+	listLayout.Padding = UDim.new(0, 16)
+	
+	--不懂但有用
+	local function updateCanvas()
+		sf.CanvasSize = UDim2.new(0, 0, 0, listLayout.AbsoluteContentSize.Y)
+	end
+	
+	-- 监听变化（实时更新，动态加元件完美）
+	listLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvas)
+	
+	-- 初始更新（等布局计算完，避 Studio 延迟）
+	task.spawn(function()
+		task.wait()  -- 等 1 帧
+		updateCanvas()
+	end)
+end
+coroutine.wrap(VWDQL_fake_script)()
+local function LNZR_fake_script() -- TextLabel_13.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_13)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(LNZR_fake_script)()
+local function IGGDIY_fake_script() -- _2_4.密钥验证 
+	local script = Instance.new('LocalScript', _2_4)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 白名单模式：点击即检查用户名，无 UI 输入
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 白名单地址
+	local WHITELIST_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/LumberTycoon2WhiteList.txt"
+	-- 要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/LumberTycoon2.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 立即显示正在比对提示（防止重复点击）
+		StarterGui:SetCore("SendNotification", {
+			Title = "包月制脚本白名单验证",
+			Text = "正在检测恁在不在白名单，不要狂点以免卡顿...",
+			Duration = 10
+		})
+	
+		local success, result = pcall(function()
+			return loadstring('return game:HttpGet("' .. WHITELIST_URL .. '", true)')()
+		end)
+	
+		if not success then
+			StarterGui:SetCore("SendNotification", {
+				Title = "验证失败",
+				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
+				Duration = 8
+			})
+			return
+		end
+	
+		-- 处理白名单内容
+		local whitelistRaw = tostring(result):lower()
+		local whitelist = {}
+		for name in whitelistRaw:gmatch("[^,%s\r\n]+") do
+			whitelist[name] = true
+		end
+	
+		local playerNameLower = player.Name:lower()
+	
+		if whitelist[playerNameLower] then
+			-- 成功：加载脚本
+			local loadOk, err = pcall(function()
+				loadstring(game:HttpGet(SCRIPT_URL, true))()
+			end)
+	
+			if loadOk then
+				StarterGui:SetCore("SendNotification", {
+					Title = "白名单里有恁",
+					Text = "恁的身份核实完成，脚本已加载！",
+					Duration = 6
+				})
+			else
+				StarterGui:SetCore("SendNotification", {
+					Title = "脚本加载失败",
+					Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+					Duration = 8
+				})
+			end
+		else
+			-- 失败：提示信息（不踢人）
+			StarterGui:SetCore("SendNotification", {
+				Title = "白名单里没有恁",
+				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Duration = 10
+			})
+		end
+	end)
+end
+coroutine.wrap(IGGDIY_fake_script)()
+local function ZVXHYP_fake_script() -- TextLabel_14.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_14)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(ZVXHYP_fake_script)()
+local function VVLLY_fake_script() -- ImageButton_7.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_7)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 白名单模式：点击即检查用户名，无 UI 输入
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 白名单地址
+	local WHITELIST_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/TheForgeWhiteList.txt"
+	-- 要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/TheForge.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 立即显示正在比对提示（防止重复点击）
+		StarterGui:SetCore("SendNotification", {
+			Title = "包月制脚本白名单验证",
+			Text = "正在检测恁在不在白名单，不要狂点以免卡顿...",
+			Duration = 10
+		})
+	
+		local success, result = pcall(function()
+			return loadstring('return game:HttpGet("' .. WHITELIST_URL .. '", true)')()
+		end)
+	
+		if not success then
+			StarterGui:SetCore("SendNotification", {
+				Title = "验证失败",
+				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
+				Duration = 8
+			})
+			return
+		end
+	
+		-- 处理白名单内容
+		local whitelistRaw = tostring(result):lower()
+		local whitelist = {}
+		for name in whitelistRaw:gmatch("[^,%s\r\n]+") do
+			whitelist[name] = true
+		end
+	
+		local playerNameLower = player.Name:lower()
+	
+		if whitelist[playerNameLower] then
+			-- 成功：加载脚本
+			local loadOk, err = pcall(function()
+				loadstring(game:HttpGet(SCRIPT_URL, true))()
+			end)
+	
+			if loadOk then
+				StarterGui:SetCore("SendNotification", {
+					Title = "白名单里有恁",
+					Text = "恁的身份核实完成，脚本已加载！",
+					Duration = 6
+				})
+			else
+				StarterGui:SetCore("SendNotification", {
+					Title = "脚本加载失败",
+					Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+					Duration = 8
+				})
+			end
+		else
+			-- 失败：提示信息（不踢人）
+			StarterGui:SetCore("SendNotification", {
+				Title = "白名单里没有恁",
+				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Duration = 10
+			})
+		end
+	end)
+end
+coroutine.wrap(VVLLY_fake_script)()
+local function LGCZHUJ_fake_script() -- TextLabel_15.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_15)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(LGCZHUJ_fake_script)()
+local function DWKEA_fake_script() -- ImageButton_8.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_8)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 白名单模式：点击即检查用户名，无 UI 输入
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 白名单地址
+	local WHITELIST_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/DeadRailsWhiteList.txt"
+	-- 要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/DeadRails.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 立即显示正在比对提示（防止重复点击）
+		StarterGui:SetCore("SendNotification", {
+			Title = "包月制脚本白名单验证",
+			Text = "正在检测恁在不在白名单，不要狂点以免卡顿...",
+			Duration = 10
+		})
+	
+		local success, result = pcall(function()
+			return loadstring('return game:HttpGet("' .. WHITELIST_URL .. '", true)')()
+		end)
+	
+		if not success then
+			StarterGui:SetCore("SendNotification", {
+				Title = "验证失败",
+				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
+				Duration = 8
+			})
+			return
+		end
+	
+		-- 处理白名单内容
+		local whitelistRaw = tostring(result):lower()
+		local whitelist = {}
+		for name in whitelistRaw:gmatch("[^,%s\r\n]+") do
+			whitelist[name] = true
+		end
+	
+		local playerNameLower = player.Name:lower()
+	
+		if whitelist[playerNameLower] then
+			-- 成功：加载脚本
+			local loadOk, err = pcall(function()
+				loadstring(game:HttpGet(SCRIPT_URL, true))()
+			end)
+	
+			if loadOk then
+				StarterGui:SetCore("SendNotification", {
+					Title = "白名单里有恁",
+					Text = "恁的身份核实完成，脚本已加载！",
+					Duration = 6
+				})
+			else
+				StarterGui:SetCore("SendNotification", {
+					Title = "脚本加载失败",
+					Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+					Duration = 8
+				})
+			end
+		else
+			-- 失败：提示信息（不踢人）
+			StarterGui:SetCore("SendNotification", {
+				Title = "白名单里没有恁",
+				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Duration = 10
+			})
+		end
+	end)
+end
+coroutine.wrap(DWKEA_fake_script)()
+local function WLMNEFX_fake_script() -- TextLabel_16.文字设定 
+	local script = Instance.new('LocalScript', TextLabel_16)
+
+	local l=script.Parent
+	
+	--使用Fredokaone字体，加粗，大小16，白色
+	l.FontFace=Font.new("rbxasset://fonts/families/FredokaOne.json",Enum.FontWeight.Bold)
+	l.TextSize=16
+	l.TextColor3=Color3.new(1, 1, 1)
+	
+	--对齐方式
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	
+	--开启富文本
+	l.RichText = true
+	
+	--根据内容轴调整大小
+	l.AutomaticSize = Enum.AutomaticSize.Y
+	
+	--开启自动换行
+	l.TextWrapped = true
+end
+coroutine.wrap(WLMNEFX_fake_script)()
+local function OFPIFI_fake_script() -- ImageButton_9.密钥验证 
+	local script = Instance.new('LocalScript', ImageButton_9)
+
+	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
+	-- 白名单模式：点击即检查用户名，无 UI 输入
+	
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local button = script.Parent
+	
+	-- 白名单地址
+	local WHITELIST_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/WarTycoonWhiteList.txt"
+	-- 要执行的脚本地址
+	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/WarTycoon.txt"
+	
+	button.MouseButton1Click:Connect(function()
+		-- 立即显示正在比对提示（防止重复点击）
+		StarterGui:SetCore("SendNotification", {
+			Title = "包月制脚本白名单验证",
+			Text = "正在检测恁在不在白名单，不要狂点以免卡顿...",
+			Duration = 10
+		})
+	
+		local success, result = pcall(function()
+			return loadstring('return game:HttpGet("' .. WHITELIST_URL .. '", true)')()
+		end)
+	
+		if not success then
+			StarterGui:SetCore("SendNotification", {
+				Title = "验证失败",
+				Text = "大概率是恁的网络或者加速器VPN的问题,导致恁连接不上白名单服务器",
+				Duration = 8
+			})
+			return
+		end
+	
+		-- 处理白名单内容
+		local whitelistRaw = tostring(result):lower()
+		local whitelist = {}
+		for name in whitelistRaw:gmatch("[^,%s\r\n]+") do
+			whitelist[name] = true
+		end
+	
+		local playerNameLower = player.Name:lower()
+	
+		if whitelist[playerNameLower] then
+			-- 成功：加载脚本
+			local loadOk, err = pcall(function()
+				loadstring(game:HttpGet(SCRIPT_URL, true))()
+			end)
+	
+			if loadOk then
+				StarterGui:SetCore("SendNotification", {
+					Title = "白名单里有恁",
+					Text = "恁的身份核实完成，脚本已加载！",
+					Duration = 6
+				})
+			else
+				StarterGui:SetCore("SendNotification", {
+					Title = "脚本加载失败",
+					Text = "大概率是恁的注入器或加速器VPN的问题，导致代码不可编译或载入失败",
+					Duration = 8
+				})
+			end
+		else
+			-- 失败：提示信息（不踢人）
+			StarterGui:SetCore("SendNotification", {
+				Title = "白名单里没有恁",
+				Text = "恁没有白名单瞎点什么？请联系管理员购买，390751814微信QQ同号",
+				Duration = 10
+			})
+		end
+	end)
+end
+coroutine.wrap(OFPIFI_fake_script)()
