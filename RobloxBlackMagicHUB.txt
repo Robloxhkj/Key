@@ -800,7 +800,7 @@ G2L["5d"]["BackgroundTransparency"] = 1;
 G2L["5d"]["RichText"] = true;
 G2L["5d"]["Size"] = UDim2.new(1, 0, 0, 0);
 G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5d"]["Text"] = [[<font color='rgb(85,255,127)'>免费脚本任意使用，买断制脚本每个13R，包月制脚本每个30R/月<br/><br/>购买脚本,注入器教学，翻墙VPN请添加右下角联系方式，遇到BUG请及时反馈给我</font>]];
+G2L["5d"]["Text"] = [[<font color='rgb(85,255,127)'>免费脚本的密钥为右下角我的QQ号，买断制脚本每个13R，包月制脚本每个30R/月<br/><br/>购买脚本,注入器教学，翻墙VPN请添加右下角联系方式，遇到BUG请及时反馈给我</font>]];
 G2L["5d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 G2L["5d"]["Name"] = [[免费脚本]];
 G2L["5d"]["Position"] = UDim2.new(0.02297, 0, 0.00014, 0);
@@ -1049,6 +1049,7 @@ G2L["79"]["Name"] = [[密钥验证]];
 
 -- StarterGui.ScreenGui.Frame.包月制脚本显示区
 G2L["7a"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["7a"]["Visible"] = false;
 G2L["7a"]["BorderSizePixel"] = 0;
 G2L["7a"]["Name"] = [[包月制脚本显示区]];
 G2L["7a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1367,9 +1368,7 @@ G2L["9c"]["Name"] = [[密钥验证]];
 
 -- StarterGui.ScreenGui.Frame.买断制脚本显示区
 G2L["9d"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["9d"]["Visible"] = false;
 G2L["9d"]["BorderSizePixel"] = 0;
-G2L["9d"]["CanvasPosition"] = Vector2.new(0, 2019);
 G2L["9d"]["Name"] = [[买断制脚本显示区]];
 G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9d"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
@@ -1595,18 +1594,18 @@ G2L["b5"] = Instance.new("LocalScript", G2L["b4"]);
 G2L["b5"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞
 G2L["b6"] = Instance.new("ImageButton", G2L["9d"]);
 G2L["b6"]["BorderSizePixel"] = 0;
 G2L["b6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b6"]["Image"] = [[rbxassetid://12737594844]];
 G2L["b6"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["b6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b6"]["Name"] = [[通用触摸踢飞]];
+G2L["b6"]["Name"] = [[触摸踢飞]];
 G2L["b6"]["Position"] = UDim2.new(0, 0, 0.06114, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍
 G2L["b7"] = Instance.new("TextLabel", G2L["b6"]);
 G2L["b7"]["TextWrapped"] = true;
 G2L["b7"]["BorderSizePixel"] = 0;
@@ -1625,17 +1624,17 @@ G2L["b7"]["Name"] = [[脚本介绍]];
 G2L["b7"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍.文字设定
 G2L["b8"] = Instance.new("LocalScript", G2L["b7"]);
 G2L["b8"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.UICorner
 G2L["b9"] = Instance.new("UICorner", G2L["b6"]);
 G2L["b9"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.密钥验证
 G2L["ba"] = Instance.new("LocalScript", G2L["b6"]);
 G2L["ba"]["Name"] = [[密钥验证]];
 
@@ -2620,18 +2619,18 @@ G2L["126"] = Instance.new("UICorner", G2L["123"]);
 G2L["126"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机
 G2L["127"] = Instance.new("ImageButton", G2L["9d"]);
 G2L["127"]["BorderSizePixel"] = 0;
 G2L["127"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["127"]["Image"] = [[rbxassetid://17228729998]];
 G2L["127"]["Size"] = UDim2.new(0, 64, 0, 64);
 G2L["127"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["127"]["Name"] = [[BloxFruit]];
+G2L["127"]["Name"] = [[建造一架飞机]];
 G2L["127"]["Position"] = UDim2.new(0, 0, 0.26016, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍
 G2L["128"] = Instance.new("TextLabel", G2L["127"]);
 G2L["128"]["TextWrapped"] = true;
 G2L["128"]["BorderSizePixel"] = 0;
@@ -2650,17 +2649,17 @@ G2L["128"]["Name"] = [[脚本介绍]];
 G2L["128"]["Position"] = UDim2.new(1.26563, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍.文字设定
 G2L["129"] = Instance.new("LocalScript", G2L["128"]);
 G2L["129"]["Name"] = [[文字设定]];
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.UICorner
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.UICorner
 G2L["12a"] = Instance.new("UICorner", G2L["127"]);
 G2L["12a"]["CornerRadius"] = UDim.new(0, 16);
 
 
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.密钥验证
 G2L["12b"] = Instance.new("LocalScript", G2L["127"]);
 G2L["12b"]["Name"] = [[密钥验证]];
 
@@ -5163,9 +5162,9 @@ local script = G2L["a6"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/BloxFruitKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFly.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/BloxFruit.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -5331,9 +5330,9 @@ local script = G2L["ab"];
 	local button = script.Parent
 	
 	-- 密钥地址（GitHub raw，目前内容为 robloxheikeji）
-	local KEY_URL = "https://raw.githubusercontent.com/Robloxhkj/Key/refs/heads/main/FreeKey.txt"
+	local KEY_URL = "https://raw.githubusercontent.com/RBMHUB/Key/refs/heads/main/KinglegacyKey.txt"
 	-- 最终要执行的脚本地址
-	local SCRIPT_URL = "https://raw.githubusercontent.com/Robloxhkj/script/refs/heads/main/UniversalFlyCar.txt"
+	local SCRIPT_URL = "https://raw.githubusercontent.com/RBMHUB/script/refs/heads/main/Kinglegacy.txt"
 	
 	button.MouseButton1Click:Connect(function()
 		-- 创建简洁的 UI
@@ -5799,7 +5798,7 @@ local script = G2L["b5"];
 	l.TextWrapped = true
 end;
 task.spawn(C_b5);
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.脚本介绍.文字设定
 local function C_b8()
 local script = G2L["b8"];
 	local l=script.Parent
@@ -5822,7 +5821,7 @@ local script = G2L["b8"];
 	l.TextWrapped = true
 end;
 task.spawn(C_b8);
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.通用触摸踢飞.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.触摸踢飞.密钥验证
 local function C_ba()
 local script = G2L["ba"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
@@ -9373,7 +9372,7 @@ local script = G2L["125"];
 	l.TextWrapped = true
 end;
 task.spawn(C_125);
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.脚本介绍.文字设定
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.脚本介绍.文字设定
 local function C_129()
 local script = G2L["129"];
 	local l=script.Parent
@@ -9396,7 +9395,7 @@ local script = G2L["129"];
 	l.TextWrapped = true
 end;
 task.spawn(C_129);
--- StarterGui.ScreenGui.Frame.买断制脚本显示区.BloxFruit.密钥验证
+-- StarterGui.ScreenGui.Frame.买断制脚本显示区.建造一架飞机.密钥验证
 local function C_12b()
 local script = G2L["12b"];
 	-- LocalScript - 放在 ImageButton 里 (Xeon/Xeno 等注入器兼容)
